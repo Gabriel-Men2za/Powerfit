@@ -872,3 +872,8 @@ html {
     scrollbar-color: rgb(124, 252, 0) #1a1a1a;
     scrollbar-width: 25px;
 }
+
+.boton-menu {
+    /* Quita el parpadeo/sombreado azul al tocar en móviles (Safari/Chrome/etc.) */
+    -webkit-tap-highlight-color: transparent;
+}
